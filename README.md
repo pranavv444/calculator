@@ -1,0 +1,69 @@
+# calculator
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=/, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="calculator">
+            <input type="text" name="sreen" id="screen">
+            <div class="keypad-container">
+
+                <table>
+                    <tr>
+                        <td><Button>(</Button></td>
+                        <td><Button>)</Button></td>
+                        <td><Button>C</Button></td>
+                        <td><Button>%</Button></td>
+
+
+                    </tr>
+                    <tr>
+                        <td><Button>7</Button></td>
+                        <td><Button>8</Button></td>
+                        <td><Button>9</Button></td>
+                        <td><Button>X</Button></td>
+
+
+                    </tr>
+                    <tr>
+                        <td><Button>4</Button></td>
+                        <td><Button>5</Button></td>
+                        <td><Button>6</Button></td>
+                        <td><Button>-</Button></td>
+
+
+                    </tr>
+                    <tr>
+                        <td><Button>1</Button></td>
+                        <td><Button>2</Button></td>
+                        <td><Button>2</Button></td>
+                        <td><Button>+</Button></td>
+
+
+                    </tr>
+                    <tr>
+                        <td><Button>0</Button></td>
+                        <td><Button>.</Button></td>
+                        <td><Button>/</Button></td>
+                        <td><Button>=</Button></td>
+
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="calc.js"></script>
+
+</html>
